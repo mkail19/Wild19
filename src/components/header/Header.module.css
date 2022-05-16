@@ -1,0 +1,36 @@
+.header{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+}
+.header > img{
+    height: 70%;
+}
+.header a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
+    color: black;
+    font-family: 'Roboto', sans-serif
+}
+.menu{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.shop{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
